@@ -6,17 +6,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projet_PharmaService.Models
 {
-    [NotMapped] 
+    
     
     public class Personne
     {
-        protected string Nom { get; set; }
-        protected string Prenom { get; set; }
-        protected DateTime DateNaissance { get; set; }
-        protected string Adresse { get; set; }
-       
-        protected string AdresseEmail { get; set; }
-        protected string Telephone { get; set; }
+        public string Nom { get; set; }
+        public string Prenom { get; set; }
+        public DateTime DateNaissance { get; set; }
+        public string Adresse { get; set; }
+
+        public string AdresseEmail { get; set; }
+        public string Telephone { get; set; }
      
        
 

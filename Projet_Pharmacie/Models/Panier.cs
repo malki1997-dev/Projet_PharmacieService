@@ -16,7 +16,7 @@ namespace Projet_PharmaService.Models
 
         public Client client { get; set; }
 
-        public int ClientId { get; set; }
+        public int clientId { get; set; }
 
         public Pharmacie Pharmacy { get; set; }
 

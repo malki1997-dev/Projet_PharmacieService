@@ -13,7 +13,7 @@ namespace Projet_PharmaService.Models
            public string Status { get; set; }
            public string NoteSatisfais { get; set; }
            public string Permis { get; set; }
-           public IFormFile Photo { get; set; }
+           public string Photo { get; set; }
            public string Cin { get; set; }
 
         public ICollection<Commande> Commandes { get; set; }

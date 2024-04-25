@@ -16,7 +16,7 @@ namespace Projet_PharmaService.Models
         public int LivreurId {  get; set; }
         public  Pharmacie Pharmacie { get; set; }
         [ForeignKey("Pharmacie")]
-        public string PharmacieId { get; set; }
+        public int PharmacieId { get; set; }
 
      
     }

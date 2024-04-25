@@ -8,7 +8,7 @@ namespace Projet_PharmaService.Models
     {
         [Key]
 
-        public string StockId { get; set; }
+        public int StockId { get; set; }
         public int quantite { get; set; }
 
         public DateTime datePeremption { get; set; }
@@ -18,11 +18,11 @@ namespace Projet_PharmaService.Models
         public Pharmacie Pharmacie { get; set; }
 
 
-        public string PharmacieId { get; set; }
+        public int PharmacieId { get; set; }
 
         public Medicament Medicament { get; set; }
 
-        public string MedicamentId { get; set; }
+        public int MedicamentId { get; set; }
         public ICollection<Statistique> statistiques { get; set; }
 
     }

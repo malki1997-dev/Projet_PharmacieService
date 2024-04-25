@@ -1,6 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Claims;
 using System.Security.Principal;
 
 namespace Projet_PharmaService.Models
@@ -21,6 +22,6 @@ namespace Projet_PharmaService.Models
         public ICollection<Notification> Notifications { get; set; }
         public ICollection<Panier> Paniers { get; set; }
 
-       
+        
     }
 }

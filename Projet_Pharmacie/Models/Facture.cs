@@ -12,7 +12,7 @@ namespace Projet_PharmaService.Models
         public Commande Commande { get; set; }
         [ForeignKey(nameof(PaiementId))]
         public Paiement Paiement { get; set; }
-        public string CommandeId { get; set; }
+        public int CommandeId { get; set; }
         public int PaiementId { get; set; }
 
         public DateTime DateFacture { get; set; }
