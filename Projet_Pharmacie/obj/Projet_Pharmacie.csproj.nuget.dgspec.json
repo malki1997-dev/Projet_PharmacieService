@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YASSER-PC\\Desktop\\Projet\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj": {}
+    "C:\\Users\\YASSER-PC\\Desktop\\Projet pharma\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YASSER-PC\\Desktop\\Projet\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj": {
+    "C:\\Users\\YASSER-PC\\Desktop\\Projet pharma\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YASSER-PC\\Desktop\\Projet\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj",
+        "projectUniqueName": "C:\\Users\\YASSER-PC\\Desktop\\Projet pharma\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj",
         "projectName": "Projet_Pharmacie",
-        "projectPath": "C:\\Users\\YASSER-PC\\Desktop\\Projet\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj",
+        "projectPath": "C:\\Users\\YASSER-PC\\Desktop\\Projet pharma\\Projet_PharmacieService\\Projet_Pharmacie\\Projet_Pharmacie.csproj",
         "packagesPath": "C:\\Users\\YASSER-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YASSER-PC\\Desktop\\Projet\\Projet_PharmacieService\\Projet_Pharmacie\\obj\\",
+        "outputPath": "C:\\Users\\YASSER-PC\\Desktop\\Projet pharma\\Projet_PharmacieService\\Projet_Pharmacie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
