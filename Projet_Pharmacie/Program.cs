@@ -14,16 +14,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<MyContext>(op =>
     op.UseSqlServer(builder.Configuration.GetConnectionString("Cnx")));
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAnyOrigin",
-        builder =>
-        {
-            builder.WithOrigins("http://localhost:7024") // Ajoutez ici toutes les autres origines autorisées si nécessaire
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
-        });
-});
 
 var app = builder.Build();
 
