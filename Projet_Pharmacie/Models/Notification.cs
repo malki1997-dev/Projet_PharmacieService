@@ -11,7 +11,6 @@ namespace Projet_PharmaService.Models
         public int Destinataire { get; set; }
         public string Message { get; set; }
         public DateTime Date { get; set; }
-        public DateTime Heure { get; set; }
         public string Status { get; set; }
         public Livreur Livreur { get; set; }
         public int LivreurId {  get; set; }

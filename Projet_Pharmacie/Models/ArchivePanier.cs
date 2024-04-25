@@ -17,8 +17,6 @@ namespace Projet_PharmaService.Models
 
         public double prixTotal { get; set; }
 
-        public int codePromo { get; set; }
-
         public string livraison { get; set; }
 
         public string modePaiment { get; set; }

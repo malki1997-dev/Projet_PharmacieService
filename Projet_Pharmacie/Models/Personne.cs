@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Projet_PharmaService.Models
 {
     [NotMapped] 
-    [Index(nameof(Cin), IsUnique = true)]
+    
     public class Personne
     {
         protected string Nom { get; set; }
@@ -18,7 +18,7 @@ namespace Projet_PharmaService.Models
         protected string AdresseEmail { get; set; }
         protected string Telephone { get; set; }
      
-        protected string Cin { get; set; }
+       
 
 
     }

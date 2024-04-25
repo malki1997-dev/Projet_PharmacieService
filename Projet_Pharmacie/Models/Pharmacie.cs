@@ -15,7 +15,7 @@ namespace Projet_PharmaService.Models
         public string Email { get; set; }
         public int CodePostal { get; set; }
         public string Ville { get; set; }
-        public string SiteWeb { get; set; }
+ 
         public Stock? Stock { get; set; }
      
         public ICollection<Notification> Notifications { get; set; }

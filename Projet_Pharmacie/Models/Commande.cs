@@ -9,7 +9,6 @@ namespace Projet_PharmaService.Models
         [Key]
         public int CommandeId { get; set; }
         public DateTime DateCommande { get; set; }
-        public DateTime HeureCommande { get; set; }
         public string AdresseLivraison { get; set; }
         public string SuiviLivraison { get; set; }
         public IFormFile QR { get; set; }
