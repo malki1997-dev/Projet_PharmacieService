@@ -20,7 +20,6 @@ namespace Projet_Pharmacie.Models
         public DbSet<Paiement> Paiements { get; set; }
         public DbSet<Panier> Paniers { get; set; }
         public DbSet<Pharmacie> Pharmacies { get; set; }
-        public DbSet<QRTP> QRTPs { get; set; }
         public DbSet<Statistique> Statistiques { get; set; }
         public DbSet<Stock> Stocks { get; set; }
 
